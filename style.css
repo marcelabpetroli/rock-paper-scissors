@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 section {
   height: 100vh;
   background-color: rgb(39, 41, 68);
@@ -11,7 +10,7 @@ section {
 }
 .score {
   color: rgb(224, 224, 224);
-  height: 20vh;
+  height: 28vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -31,13 +30,13 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 .intro h1 {
   font-size: 50px;
 }
 .intro button,
-.options button {
+.match button {
   width: 150px;
   height: 50px;
   background: none;
@@ -53,6 +52,7 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: opacity 0.5s ease 0.5s;
 }
 .winner {
   color: rgb(224, 224, 224);
@@ -73,6 +73,6 @@ div.fadeOut {
   pointer-events: none;
 }
 div.fadeIn {
-  opacity: 0;
+  opacity: 1;
   pointer-events: all;
 }
