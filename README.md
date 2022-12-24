@@ -18,7 +18,7 @@ While learning JavaScript in Adalab's Web Dev Bootcamp I wanted to keep practici
 
 ## Improvements
 
-- When one player reachers X points a button appears showing who is the winner, followed by a button to start over
+- When one player reaches X points a button appears showing who the winner is, followed by a button to start over
 - Change the color of the winner hand, to improve feedback
 - Give the user the ability to introduce his name
 - Implement a high score counter
